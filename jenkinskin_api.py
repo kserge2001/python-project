@@ -27,3 +27,4 @@ with open("jenkins_object.csv", 'w') as j:
     write_row.writerow(['JOB_NAME', 'JOB_URL', 'JOB_STATUS'])
     for item in data:
         write_row.writerow(item)
+    
